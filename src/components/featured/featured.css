@@ -1,0 +1,78 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.featureditem {
+    flex:1;
+    margin:0px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #DDEFE0;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 10px; /* Adjust the top value as needed */
+    right: 10px; /* Adjust the right value as needed */
+}
+.revanue {
+    background: #DDEFE0;
+}
+.sales{
+
+    background: #F4ECDD;
+}
+ .likes{
+ 
+    background: #EFDADA;
+}
+ .users{
+
+    background: #DEE0EF;
+}
+.featuredtitle{
+    font-size: 20px;
+
+}
+.featuredmoneycontainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.featuredmoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featuredrate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.featuredicon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+.featuredicon.negative{
+    color: red;
+}
+.featuredsub{
+    font-size: 15px;
+    color: gray;
+}
+@media (max-width: 768px) {
+    .featured{
+        min-width: 40%;
+
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .featureditem{
+        margin-bottom: 10px;
+    }
+}

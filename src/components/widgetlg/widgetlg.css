@@ -1,0 +1,39 @@
+.widgetlg{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.top-lg
+{
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    font-weight: lighter;
+}
+.widgetlgtitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .widgetlg{
+        flex: 1;
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+    .widgetlgtitle{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .date{
+        font-size: 12px;
+    }
+    .top-lg{
+        flex-direction: column;
+        justify-content: start;
+       }
+
+   
+}
